@@ -1,0 +1,31 @@
+{
+  "name": "cypress-cucumber-example",
+  "version": "1.0.0",
+  "description": "Example of cypress with cucumber",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheBrainFamily/cypress-cucumber-example.git"
+  },
+  "keywords": [
+    "cypress",
+    "cucumber",
+    "testing"
+  ],
+  "author": "Lukasz Gandecki",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TheBrainFamily/cypress-cucumber-example/issues"
+  },
+  "homepage": "https://github.com/TheBrainFamily/cypress-cucumber-example#readme",
+  "dependencies": {
+    "@bahmutov/add-typescript-to-cypress": "^2.0.0",
+    "@types/node": "^10.3.4",
+    "cypress": "^3.0.1",
+    "cypress-cucumber-preprocessor": "^1.0.0",
+    "typescript": "^2.9.2"
+  }
+}
